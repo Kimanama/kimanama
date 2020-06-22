@@ -104,3 +104,65 @@ body {
 .mastfoot {
     color: rgba(255, 255, 255, .5);
 }
+
+.list-group-item {
+    color: #000000;
+}
+
+.card-text {
+    color: #000000;
+}
+
+
+
+#thumbnail {
+    margin:0;
+    padding:0;
+    width:200px;
+    height:600px;  /* Tatsächliche Bildhöhe */
+    float:left;    /* Bilder in Vollansicht daneben */
+    overflow:auto; /* Scrollbalken bei Bedarf */
+}
+
+#thumnail li {
+    list-style:none; /*Liste ohne Punkte zeigen*/
+}
+
+#thumbnail a {
+    display:block;
+    color: white; /* Für Alternativtext */
+    width: 188px;
+    padding: 6px;
+    text-align: center;
+}
+
+#thumbnail li a:hover {
+    background-color: grey;
+}
+
+#thumbnail img {
+    border: 1px solid white;
+}
+
+#fullframe {
+    margin:0;
+    padding:0;
+    margin-left:220px;  /* Platz für die Navigation freilassen */
+    width:802px;        /* Anzeigebreite des Bildes */
+    height:602px;       /* Anzeigehöhe des Bildes */
+    overflow:hidden;    /* Nur ein Bild anzeigen */
+}
+
+#fullframe li {
+    list-style:none; /*Liste ohne Punkte zeigen*/
+}
+
+#fullframe li a {
+    display:block;
+}
+
+#fullframe li img {
+    display:block;
+    margin:0 auto;      /* Zentrieren */
+    border: 1px solid white;
+}
